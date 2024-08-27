@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cruisinsznreviews.org</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #222;
+            color: #ccc;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #ccc;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .album-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .album-item {
+            background: #333;
+            padding: 15px;
+            width: 220px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .album-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .album-info {
+            margin-top: 10px;
+        }
+        .album-title {
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        .album-details {
+            font-size: 14px;
+            color: #aaa;
+        }
+        footer {
+            background-color: #333;
+            color: #ccc;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        cruisinsznreviews.org
+    </header>
+
+    <nav>
+        <a href="#">Albums</a>
+        <a href="#">Reviews</a>
+        <a href="#">Lists</a>
+        <a href="#">Likes</a>
+        <a href="#">Library</a>
+    </nav>
+
+    <div class="container">
+        <div class="album-grid">
+            <!-- Example Album -->
+            <div class="album-item">
+                <img src="path_to_album_cover.jpg" alt="Album Cover">
+                <div class="album-info">
+                    <div class="album-title">Men I Trust</div>
+                    <div class="album-details">Oncle Jazz | LP | 100 | May 10</div>
+                </div>
+            </div>
+            <div class="album-item">
+                <img src="path_to_album_cover.jpg" alt="Album Cover">
+                <div class="album-info">
+                    <div class="album-title">Lauryn Hill</div>
+                    <div class="album-details">The Miseducation of Lauryn Hill | LP | 100 | May 10</div>
+                </div>
+            </div>
+            <!-- Add more albums as needed -->
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 cruisinsznreviews.org | All rights reserved
+    </footer>
+
+</body>
+</html>
